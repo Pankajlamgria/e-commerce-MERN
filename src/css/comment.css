@@ -1,0 +1,8 @@
+
+.singlecomment p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family:'Lugrasimo', cursive;
+    text-shadow: 1.2px 1.2px pink;
+    border-bottom: 1px solid rgb(179, 179, 179);
+}

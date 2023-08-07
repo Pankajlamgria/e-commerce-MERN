@@ -1,0 +1,142 @@
+.addingblogsec{
+    /* height: 100%; */
+    width: 900px;
+    background-color: rgb(223 220 255);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /* color:white */
+    padding: 22px;
+}
+.addingblogseccover{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.addingblogsec h3{
+    margin-top: 12px;
+    font-family: 'Alex Brush', cursive;
+       font-weight: bolder;
+    font-size: 32px;
+    color: #f58497;
+    text-shadow: 1px 1px white;
+    margin-bottom: 24px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+.title input{
+    height: 35px;
+    padding-left: 15px;
+}
+label{
+    font-family: 'Lugrasimo', cursive;
+    font-size: large;
+    margin-bottom: 4px;
+}
+input{
+    font-family:  cursive;
+    font-size: large;
+    border: 1px white;
+    border-radius: 12px;
+}
+textarea{
+    padding: 10px;
+    font-family:  cursive;
+    font-size: large;
+    border: 1px white;
+    border-radius: 12px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+.blogtype{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+.blogtypeinput{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+.blogtypeinput input{
+    margin-left: 12px;
+    margin-right: 4px;
+}
+button{
+    cursor: pointer;
+    font-family:  cursive;
+    font-weight: bold;
+    font-size: 15px;
+    height: 42px;
+    width: 60px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 1px solid #f58497;
+    background-color: white;
+}
+button:hover{
+    box-shadow: 1px 1px rgb(255, 255, 255);
+}
+.myblogscover{
+    display: flex;
+    flex-flow: row wrap;
+    /* width: 80%; */
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+#myblogheading{
+    margin-top: 32px;
+    font-family: 'Alex Brush', cursive;
+       font-weight: bolder;
+    font-size: 32px;
+    color: #f58497;
+    text-shadow: 1px 1px rgb(63, 63, 63);
+    margin-bottom: 10px;
+    margin-left:130px ;
+}
+.myblogcard{
+    border: 1px solid #000000;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px rgb(51, 51, 51);
+    
+    width: 350px;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 5px;
+}
+.myblogcard h4{
+    text-align: center;
+    font-family: cursive;
+    font-size: large;
+    margin-bottom: 3px;
+}
+.dateandtypesec {
+    margin-left:23px;
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+.myblogcard p{
+    padding-left: 6px;
+}
+.icons{
+    margin-left: 20px;
+}
+#del{
+    margin-left: 12px;
+    margin-bottom: 12px;
+}

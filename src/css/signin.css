@@ -1,0 +1,83 @@
+.siginpage  {
+    margin-top: 4px;
+    border-radius: 8px;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items:center;
+    background-color: rgb(223 220 255);
+}
+.signincover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signincover h2{
+    font-family: 'Alex Brush', cursive;
+    font-weight: bolder;
+    font-size: 32px;
+    color: #f58497;
+    text-shadow: 1px 1px white;
+    margin-top: 40px;
+}
+.signinemailsec{
+    display: flex;
+    flex-direction: column;
+}
+.signinusernamesec{
+    display: flex;
+    flex-direction: column;
+}
+.signinprofessionsec{
+    display: flex;
+    flex-direction: column;
+}
+.signinpasswordsec{
+    display: flex;
+    flex-direction: column;   
+}
+.signincover label{
+    font-family: 'Lugrasimo', cursive;
+    color: white;
+    font-size: large;
+    margin-bottom: 4px;
+}
+.signincover input{
+    margin-bottom: 22px;
+    width: 400px;
+    height: 25px;
+    font-family:  cursive;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    border:1px solid rgb(255, 255, 255);
+    border-radius:8px;
+    padding:2px;
+}
+.signinbuttons{
+
+    float: right;
+}
+.signinbuttons button{
+    cursor: pointer;
+    font-family:  cursive;
+    font-weight: bold;
+    font-size: 15px;
+    height: 42px;
+    width: 60px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 1px solid #f58497;
+    background-color: white;
+}
+.signinbuttons button:nth-child(1){
+    background-color: #ffffff;
+    border: 1px solid #f58497;
+    color: rgb(0, 0, 0);
+}
+.signinbuttons button:hover{
+    box-shadow: 1px 1px rgb(255, 255, 255);
+}
+.siginpage form{
+    margin-top: 30px;
+}

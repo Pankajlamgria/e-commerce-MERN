@@ -1,0 +1,79 @@
+.loginpage{
+    margin-top: 4px;
+    border-radius: 8px;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-flow: column wrap;
+    /* justify-content: space-around; */
+    align-items:center;
+    background-color: rgb(223 220 255);
+}
+.logincover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logincover h2{
+    font-family: 'Alex Brush', cursive;
+    font-weight: bolder;
+    font-size: 32px;
+    color: #f58497;
+    text-shadow: 1px 1px white;
+    margin-top: 80px;
+}
+.emailsec{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.logincover label{
+    font-family: 'Lugrasimo', cursive;
+    color: white;
+    font-size: large;
+    margin-bottom: 4px;
+    /* font-weight: bold; */
+}
+.passwordsec{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;   
+}
+.logincover input{
+    width: 400px;
+    height: 25px;
+    font-family:  cursive;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    border:1px solid rgb(255, 255, 255);
+    border-radius:8px;
+    padding:2px;
+}
+label:hover{
+    text-shadow: 1px 1px pink;
+}
+.buttons{
+
+    float: right;
+}
+.buttons button{
+    cursor: pointer;
+    font-family:  cursive;
+    font-weight: bold;
+    font-size: 15px;
+    height: 42px;
+    width: 60px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 1px solid #f58497;
+    background-color: white;
+}
+.buttons button:nth-child(1){
+    background-color: #ffffff;
+    border: 1px solid #f58497;
+    color: rgb(0, 0, 0);
+}
+button:hover{
+    box-shadow: 1px 1px rgb(255, 255, 255);
+}

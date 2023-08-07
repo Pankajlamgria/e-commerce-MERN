@@ -1,0 +1,27 @@
+#searchinput{
+    margin-top: 2rem;
+    margin-left: 9%;
+    width: 80%;
+    height: 3rem;
+    border-radius: 25px;
+    padding-left:15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    border: none;
+    box-shadow: 1px 1px 5px grey;
+}   
+.searchresult{
+    margin: 1rem;
+    margin-top: 2rem;
+    padding-left: 4%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    background-color: #eef0f5;
+}
+@media screen and (max-width:470px) {
+    #searchinput{
+        margin-top:-2rem ;
+        height: 35px;
+    }
+}

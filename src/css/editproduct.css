@@ -1,0 +1,54 @@
+#editproductform{
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+#editproductform h2{
+    font-size: 38px;
+    margin-bottom: 8px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+}
+#editproductform label{
+    /* text-align: center; */
+    width: 84%;
+    font-size: 22px;
+    margin-top: 1rem;
+    margin-bottom: 4px;
+}
+#editproductform input{
+    width: 84%;
+    height: 1.7rem;
+    border-radius: 4px;
+    border: 1px solid rgb(92, 92, 92);
+    padding-left: 5px;  
+    font-size: 18px;
+}
+#editbtn{
+    color: green;
+    border: 2px solid green;
+    border-radius: 6px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 1rem;
+    width: 90px;
+    height: 35px;
+    font-size: 16px;
+}
+/* #editbtn{
+} */
+#editbtn:hover{
+    box-shadow: 2px 2px 3px grey;
+
+}
+
+@media screen and (max-width:400px) {
+    #editproductform{
+        margin-top: -4rem;
+    }
+
+
+}

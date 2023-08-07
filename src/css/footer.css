@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+.footer{
+    position: relative;
+    bottom: 0px;
+    margin: 0px;
+    background-color: rgb(229 234 245);
+    /* width: 100%; */
+    padding: 7px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.support{
+    width: 35px;
+    display: flex;
+    flex-direction: column;
+}
+.support img{
+    cursor: pointer;
+    margin: 2px;
+    height: 30px;
+    width: 30px;
+    animation: floatright 1s ease forwards ;
+}
+h3{
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    margin-top: 2px;
+    margin-bottom: 1rem;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.footer h5{
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Handlee', cursive;
+    margin: 5px
+}
+@media screen and (max-width:470px) {
+    .footer{
+        /* width: 95%; */
+        justify-content: space-evenly;
+    }
+    h3{
+        margin-bottom: 0rem;
+        font-size: 22px;
+    }
+    .footer h5{
+        font-size: 14px;
+    }
+    .support img{
+        margin-left: -12px;
+    }
+}
+@keyframes floatright{
+    0%{ 
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 100;
+        transform: translateX(  0px);
+    }
+}

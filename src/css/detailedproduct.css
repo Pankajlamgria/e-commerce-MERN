@@ -1,0 +1,124 @@
+#bigcontofdetial{
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+}
+.detailimgsec{
+    width: 35%;
+    margin-left: 1%;
+    margin-right: 2%;
+    height: 500px;
+    background-color: rgb(230, 230, 230);
+}
+#detailedproductimg{
+    height: 100%;
+    width: 100%;
+}
+.detailcontainer{
+    display: flex;
+    flex-direction: row;
+    /* background-color: aliceblue; */
+}
+.detialtextsec{
+    background: linear-gradient(to left,rgb(73, 199, 188),white);
+    display: flex;
+    flex-direction: column;
+
+    width: 62%;
+    padding: 1rem;
+}
+#detailproductname{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 1.4rem;
+}
+.pricesec{
+    margin-top: 1.4rem;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: row;
+
+}
+#priceseccurrent{
+    font-size: 28px;
+}
+#percentageoffval{
+    color: red;
+    margin-right: 1rem;
+    font-size: 25px;
+}
+#pricesenormal{
+    margin-left: 2rem;
+    text-decoration: line-through ;
+}
+#detailavailable{
+    margin-left:2rem;
+    margin-top: 5px;
+    font-size: 20px;
+    color: green;
+    margin-bottom: 1rem;
+}
+.hline{
+    height: 1px;
+    width: 100%;
+    background-color: black;
+    /* margin-bottom: 2rem; */
+}
+.secone{
+    display: flex;
+    flex-direction:row ;
+    margin-left: 2rem;
+    margin-top: .8rem;
+}
+.headdetail{
+    font-size: 18px;
+    text-shadow: .2px .2px black;
+    margin-right: 2rem;
+}
+.btnsec{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+#addtocartbtn,#buybtn{
+    cursor: pointer;
+    margin-top: 1rem;
+    width:80%;
+    margin-left: 10%;
+    color: white;
+    font-size: 22px;
+    height: 40px;
+}
+#addtocartbtn{
+    background-color: transparent;
+    border-color: white;
+}
+#buybtn{
+    background: linear-gradient(to right,black,grey);
+    border-color: white;
+}
+#addtocartbtn:hover{
+    box-shadow: 1px 2px 4px grey;
+}
+#buybtn:hover{
+    box-shadow: 1px 2px 4px grey;
+}
+
+@media screen and (max-width:700px) {
+    .detailimgsec{
+        height: 420px;
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width:470px) {
+    .detailimgsec,.detialtextsec{
+       width: auto;
+    }
+    .detailcontainer{
+        /* margin-top: -4rem; */
+        flex-direction: column;
+    }
+    #bigcontofdetial{
+        margin-top:2rem ;
+    }
+}

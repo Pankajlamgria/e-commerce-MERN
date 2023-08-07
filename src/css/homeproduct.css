@@ -1,0 +1,135 @@
+.productcard{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    margin-left:2rem ;
+    width: 232px;
+    height: 340px;
+    padding-top:5px;
+    display: flex;
+    flex-flow: column wrap;
+    /* box-shadow:2px 2px 8px  rgb(99, 99, 99); */
+    border:1px solid black;
+    transition: .8s;
+    animation: fadein 2s  ease forwards;
+    padding-bottom: 2rem;
+    border-radius: 8px;
+}
+#loadingimg{
+    height: 40px;
+    width: 40px;
+    animation: rotate 2.6s  ease forwards infinite;
+}
+.productimgcover{
+    background-color: rgb(248, 248, 248);
+    width: 218px;
+    height: 219px;
+    overflow:hidden;
+    transition: .6s;
+    margin-left: 5px;
+    z-index: 1;
+}
+.productimgcovertext{
+    position: relative;
+    z-index: 2;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px  rgb(105, 105, 105);
+    text-align: center;
+    font-size: 26px;
+    bottom: 56%;
+    left: 20%;
+    background-color: white;
+    border-radius: 9px;
+    border: 0px solid black;
+    box-shadow: 2px 2px 10px grey;
+    cursor: pointer;
+    padding: 2px;
+    opacity: 0;
+    transition: 1.4s;
+}
+.productcard h4{
+    margin-left: 1rem;
+    font-family: 'PT Sans Narrow', sans-serif;;
+    margin-top: 1rem;
+    font-size: 18px;
+
+}
+.productcard span{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    align-items: center;
+    /* color: ; */
+}
+#productimgs{
+    width: 100%;
+    height: 100%;
+    transition: .6s;
+    /* position: relative; */
+}
+.spinner{
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    background-color: rgb(173, 173, 173);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation: fadeing 3.8s ease forwards infinite;
+}
+/* .spinner p{
+    background-color: rgb(173, 173, 173);
+    padding: 4px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
+    
+} */
+#productimgs:hover{
+    scale: 1.2;
+    opacity: .7;
+}
+.productimgcover:hover .productimgcovertext{
+    opacity: 1;
+}
+.options{
+    margin-left: 1rem;
+    margin-top: 8px;
+}
+.options box-icon{
+    cursor: pointer;
+    margin-right: 6px;
+}
+@keyframes fadein {
+    0%{
+      /* scale: 1.5; */
+      opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes rotate {
+    0%{
+      /* scale: 1.5; */
+      transform: rotateX(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes fadeing {
+    0%{
+      /* scale: 1.5; */
+      opacity: 0.5;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.5;
+    }
+}

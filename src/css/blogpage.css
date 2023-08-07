@@ -1,0 +1,85 @@
+    .blogpage{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        background-color: white;
+        border-radius: 12px;
+        margin-bottom: 35px;
+        padding: 30px;
+    }
+    .blogpage h2{
+        text-align: center;
+        font-family: 'Lugrasimo', cursive;
+        margin-top: 4px;
+        text-shadow: 1px 1px rgb(215 109 199);
+    }
+    .typeandby{
+        margin-top: 12px;
+        margin-bottom: 12px;
+        margin-left: 880px;
+    }
+
+    p{
+        margin: 17px;
+    }
+    .time{
+        font-size: 14px;
+    }
+    .time p{
+        float: right;
+        margin-right: 35px;
+    }
+    .commentbox box-icon{
+        cursor: pointer;
+        float: right;
+        margin-right: 35px;
+        height: 30px;
+        width: 30px;
+    }
+    #commentinput{
+        width:980px;
+        height: 25px;
+        font-family: cursive;
+        font-weight: medium;
+        padding-left: 8px;
+        border-radius: 12px;
+    }
+    .commentsec{
+        margin-top:12px ;
+        /* width: 100%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: none; 
+    }
+    .inputcomment{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* border: 1px solid black; */
+    }
+    #sendbtn{
+        height: 28px;
+        width: 28px;
+        cursor: pointer;
+    }
+    .allcomments{
+        height: 150px;
+        width: 980px;
+        background-color: rgb(253, 253, 253);
+        margin-top: 12px;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+        box-shadow: 2px 2px 5px grey;
+
+    }
+    .allcomments::-webkit-scrollbar{
+        display:none ;
+    }
+    input{
+        border: 1px solid black;
+        padding: 2px;
+    }
